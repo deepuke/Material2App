@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule } from '@angular/material';
+
+import { MdSidenavModule, MdButtonModule, MdIconModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 
@@ -15,7 +16,7 @@ import 'hammerjs';
     BrowserModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
-    MdButtonModule
+    MdSidenavModule, MdButtonModule, MdIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
